@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "mock": "json-server --watch db.json --port 4200",
     "build": "next build",
     "start": "next start"
   },
