@@ -1,7 +1,7 @@
 import fetch from "isomorphic-unfetch";
 
 export default async (req, res) => {
-  const url = "http://localhost:4200/skills";
+  const url = "https://blackedin-api.herokuapp.com/skills";
 
   try {
     const response = await fetch(url, {

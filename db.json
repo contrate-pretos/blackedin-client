@@ -27,35 +27,40 @@
       "avatar": "https://miro.medium.com/max/620/1*-Bbi8BhrX1joKtEU30e_fg.png",
       "about": "Djamila Taís Ribeiro dos Santos (Santos, 1 de agosto de 1980) é uma filósofa, feminista, escritora e acadêmica brasileira.",
       "site": "http://djamila.org",
-      "twitter": "@djamila"
+      "twitter": "@djamila",
+      "skills": ["Filosofia", "Educação"]
     },
     {
       "id": "2",
       "name": "Érico Brás",
       "avatar": "https://brazil.unfpa.org/sites/default/files/news/erico-bras-ganha-acao-apos-ser-retirado-de-voo-em-salvador-nota_297303_36.jpg",
       "about": "Ator, cantor, humorista e apresentador brasileiro.",
-      "site": "http://djamila.org"
+      "site": "http://djamila.org",
+      "skills": ["Cantor", "Humorista"]
     },
     {
       "id": "3",
       "name": "Silvio Luiz de Almeida",
       "avatar": "https://live.staticflickr.com/1979/31023187448_f11ee9399c_b.jpg",
       "about": " Jurista e filósofo, é doutor em filosofia e teoria geral do direito pela Faculdade de Direito da Universidade de São Paulo (Largo São Francisco).",
-      "site": "http://djamila.org"
+      "site": "http://djamila.org",
+      "skills": ["TI"]
     },
     {
       "id": "4",
       "name": "Rodney William",
       "avatar": "https://s2.glbimg.com/pTdCaCIH7h-2OiI_NwNRUyWOqHY=/smart/e.glbimg.com/og/ed/f/original/2019/10/16/3-decoracoes-que-refletem-apropriacao-cultural-e-racismo_462.jpg",
       "about": "Babalorixá, Doutor em ciências sociais pela PUC-SP e autor do livro Apropriação Cultural.",
-      "site": "http://djamila.org"
+      "site": "http://djamila.org",
+      "skills": ["Educação"]
     },
     {
       "id": "4",
       "name": "Joice Berth",
       "avatar": "https://assets.betalabs.net/production/buxclub/extra_fields/36/phpRPNsBd1560545054.png",
       "about": " Escritora, feminista negra, arquiteta e urbanista, formada pela Universidade Nove de Julho e pós-graduada em Direito Urbanístico pela PUC-MG.",
-      "site": "http://djamila.org"
+      "site": "http://djamila.org",
+      "skills": ["Arquitetura"]
     }
   ]
 }

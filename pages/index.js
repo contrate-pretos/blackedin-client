@@ -3,8 +3,8 @@ import styled from "styled-components";
 import fetch from "isomorphic-unfetch";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container, Grid, Typography } from "@material-ui/core";
-import User from "./components/User";
-import Skills from "./components/Skills";
+import User from "../components/User";
+import Skills from "../components/Skills";
 
 const fetchData = async endPoint => {
   try {
@@ -73,8 +73,8 @@ const Home = () => {
         </Grid>
         <Grid item xs={8}>
           <div className={classes.grid}>
-            {users.map((user, index) => (
-              <User key={index} {...user} />
+            {users.map(user => (
+              <User key={user.id} {...user} />
             ))}
           </div>
         </Grid>

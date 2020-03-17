@@ -26,21 +26,23 @@ export default function Skills({ skills }) {
   return (
     <FormControl component="fieldset" className={classes.formControl}>
       <FormGroup>
-        {skills.map(skill => (
-          <FormControlLabel
-            control={
-              <Checkbox
-                value={skill}
-                classes={{
-                  root: classes.root,
-                  checked: classes.checked
-                }}
-              />
-            }
-            label={skill}
-            className={classes.label}
-          />
-        ))}
+        {skills &&
+          skills.map(({ id, skill }) => (
+            <FormControlLabel
+              key={id}
+              control={
+                <Checkbox
+                  value={skill}
+                  classes={{
+                    root: classes.root,
+                    checked: classes.checked
+                  }}
+                />
+              }
+              label={skill}
+              className={classes.label}
+            />
+          ))}
       </FormGroup>
     </FormControl>
   );
